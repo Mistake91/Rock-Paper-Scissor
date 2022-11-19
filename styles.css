@@ -19,3 +19,12 @@ img {
   border: none;
   border-radius: 5px;
 }
+
+.result-tag {
+  height: 50px;
+}
+
+.rock-btn, .paper-btn, .scissor-btn {
+  opacity: 50%;
+  margin-top: 50px;
+}

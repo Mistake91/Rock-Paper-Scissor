@@ -11,3 +11,11 @@ img {
   width: 100px;
   opacity: 0%;
 }
+
+.new-game {
+  opacity: 0%;
+  height: 30px;
+  background-color: #e98a1d;
+  border: none;
+  border-radius: 5px;
+}

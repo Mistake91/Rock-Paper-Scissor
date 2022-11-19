@@ -28,3 +28,25 @@ img {
   opacity: 50%;
   margin-top: 50px;
 }
+
+.rock-btn:hover, .paper-btn:hover, .scissor-btn:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+
+.Rock-player, .Rock-opponent {
+  position: relative;
+  z-index: 2;
+  left: 105px;
+}
+
+.Paper-player, .Paper-opponent {
+  position: relative;
+  z-index: 3;
+}
+
+.Scissor-player, .Scissor-opponent {
+  position: relative;
+  right: 105px;
+  z-index: 4;
+}

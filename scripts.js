@@ -12,12 +12,12 @@ function playerChoice(playerHand) {
 
         document.getElementById(playerElement).style.opacity = '1'
         document.getElementById(opponentElement).style.opacity = '1'
-        document.getElementById('new-game').style.opacity = '1'
+        document.getElementById('new-Game').style.opacity = '1'
     }
 }
 
 function oppHand() {
-    let randomHand = math.floor(Math.random() * 3)
+    let randomHand = Math.floor(Math.random() * 3)
 
     if (randomHand === 0) {
         return 'Rock'

@@ -13,12 +13,13 @@ img {
   opacity: 0%;
 }
 
-.new-game {
+.new-Game {
   opacity: 0%;
   height: 30px;
   background-color: #e98a1d;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .result-tag {

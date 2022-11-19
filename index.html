@@ -6,49 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <script src="scripts.js"></script>
-    <title>Rock Paper Scissors</title>
+    <title>Rock Paper Scissor</title>
   </head>
   <body>
     <h1>ROCK PAPER SCISSORS</h1>
     <div class="stage-opponent" id="stage-opponent">
-      <img
-        class="Rock-opponent"
-        id="Rock-opponent"
-        src="images/rock.png"
-        alt="Rock"
-      />
-      <img
-        class="Paper-opponent"
-        id="Paper-opponent"
-        src="images/paper.png"
-        alt="Paper"
-      />
-      <img
-        class="Scissor-opponent"
-        id="Scissor-opponent"
-        src="images/scissor.png"
-        alt="Scissor"
-      />
+      <img class="Rock-opponent" id="Rock-opponent" src="images/rock.png" alt="Rock"/>
+      <img class="Paper-opponent" id="Paper-opponent" src="images/paper.png" alt="Paper"/>
+      <img class="Scissor-opponent" id="Scissor-opponent" src="images/scissor.png" alt="Scissor"/>
     </div>
     <div class="stage-player" id="stage-player">
-      <img
-        class="Rock-player"
-        id="Rock-player"
-        src="images/rock.png"
-        alt="Rock"
-      />
-      <img
-        class="Paper-player"
-        id="Paper-player"
-        src="images/paper.png"
-        alt="Paper"
-      />
-      <img
-        class="Scissor-player"
-        id="Scissor-player"
-        src="images/scissor.png"
-        alt="Scissor"
-      />
+      <img class="Rock-player" id="Rock-player" src="images/rock.png" alt="Rock"/>
+      <img class="Paper-player" id="Paper-player" src="images/paper.png" alt="Paper"/>
+      <img class="Scissor-player" id="Scissor-player" src="images/scissor.png" alt="Scissor"/>
     </div>
+    <img class="rock-btn" id="rock-btn" src="images/rock.png" alt="Rock" onclick="PlayerChoice('Rock')">
+    <img class="paper-btn" id="paper-btn" src="images/paper.png" alt="Paper" onclick="PlayerChoice('Paper')">
+    <img class="scissor-btn" id="scissor-btn" src="images/scissor.png" alt="Scissor" onclick="PlayerChoice('Scissor')">
   </body>
 </html>
